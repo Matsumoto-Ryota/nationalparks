@@ -63,7 +63,7 @@ jobs:
         openshift_server_url: ${{ env.OPENSHIFT_SERVER }}
         openshift_token: ${{ env.OPENSHIFT_TOKEN }}
         insecure_skip_tls_verify: true
-        namespace: ${{ env.OPENSHIFT_NAMESPACE }}
+        namespace: ${{ env.matsumotory33-dev_NAMESPACE }}
 
     # Run a script to create a new app or update the current one with the previously pushed container image
     - run: | 
