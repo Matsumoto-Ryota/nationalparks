@@ -1,4 +1,4 @@
-name: matsumotory33-dev 
+name: openshift 
 
 env: 
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
